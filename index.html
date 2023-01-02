@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Interval timer</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<main>
+			<div class="background"></div>
+			<div class="container">
+				<div class="header">
+					<h1>Interval Timer</h1>
+				</div>
+				<div class="options">
+					<div class="sections" id = "sections">
+						<a href="#" class="option active" id="fastStart">Fast start</a>
+						<a href="#" class="option" id="presets">Presets</a>
+					</div>
+				</div>
+				<div class="content" id = "content">
+					<div class="tab" id="fastStart">
+						<div class="settings">
+							<div class="value" id = "value">
+								<h3>Sets</h3>
+								<div class="value_input">
+									<input type="text" class="number_value input" id="setsAmount">
+								</div>
+							</div>
+							<div class="value" id = "value">
+								<h3>Work</h3>
+								<div class="value_input">
+									<input type="text" class="time_value input" id="work_minutes">:
+									<input type="text" class="time_value input" id="work_seconds">
+								</div>
+							</div>
+							<div class="value" id = "value">
+								<h3>Rest</h3>
+								<div class="value_input">
+									<input type="text" class="time_value input" id="rest_minutes">:
+									<input type="text" class="time_value input" id="rest_seconds">
+								</div>
+							</div>
+							<div class="buttons">
+								<button id="startBtn">Start!</button>
+								<button id="clearBtn">Stop</button>
+							</div>
+						</div>
+					</div>
+					<div class="tab" id="presets">
+						<div class="settings">
+							coming soon! :)
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<script src="js/options.js"></script>
+		<script src="js/fastStart.js"></script>
+	</body>
+</html>
