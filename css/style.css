@@ -159,7 +159,6 @@ button{
 	color: #ebebeb;
 	background-color: #312f33;
 	border: none;
-	box-shadow: 0 -2px 2px #413b4b;
 	transition: .3s;
 	border-radius: 8px;
 }
