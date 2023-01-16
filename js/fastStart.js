@@ -1,4 +1,5 @@
-let background = doc.getElementsByTagName("body")[0],
+let doc = document,
+    background = doc.getElementsByTagName("body")[0],
     inputs = doc.getElementsByClassName('input'),
     setsAmount = doc.getElementById("setsAmount"),
     workTimeSecs = doc.getElementById("work_seconds"),
